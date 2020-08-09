@@ -1,6 +1,6 @@
 {
   "name": "three-bmfont-text",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "renders BMFont files in ThreeJS with word-wrapping",
   "main": "index.js",
   "license": "MIT",
@@ -24,19 +24,19 @@
     "three-buffer-vertex-data": "1.1.0"
   },
   "devDependencies": {
-    "bluebird": "^2.9.14",
-    "browserify": "^12.0.1",
-    "budo": "^7.0.2",
+    "bluebird": "^3.7.2",
+    "browserify": "^16.5.1",
+    "budo": "^11.6.3",
     "glsl-aastep": "^1.0.1",
     "glsl-noise": "0.0.0",
-    "glslify": "^4.0.0",
+    "glslify": "^7.0.0",
     "load-bmfont": "^1.4.0",
-    "standard": "^5.4.1",
+    "standard": "^14.3.4",
     "sun-tzu-quotes": "^1.0.0",
-    "three": "^0.70.0",
+    "three": "^0.118.3",
     "three-orbit-viewer": "69.3.1",
     "three-vignette-background": "1.0.3",
-    "uglify-js": "^2.4.17"
+    "uglify-js": "^3.10.0"
   },
   "scripts": {
     "build": "browserify test/test-shader.js -t glslify | uglifyjs -cm > test/bundle.js",
